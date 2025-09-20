@@ -26,4 +26,4 @@ In KMaps the reason you are able to go across edge is due KMaps using something 
 The names are called that for how they interact with our formulas. When we write our Sum of Products we typically just use a form of algebra notation that when looked at gives us those names. Sum of Products written out as a formula look like the Summation of multiplying two variables and vice versa.  
 
 ### Open the test.v file – how are we able to check that the signals match using XOR?
-
+We can check that the signals match by using the behavior of XOR. Since XOR gives an output when the signals don't match we can use this to check when the signals don't match but also when they match if it gives no output. 
