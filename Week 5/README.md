@@ -16,8 +16,8 @@ the constraints file maps your inputs and outputs to real pins on the FPGA.
 ## Lab Questions
 
 ### 1 - Explain the role of the Top Level file.
-
+It's the file that directly interacts with our FPGA we're using and interacting using the relative circuit pathways via other files.
 ### 2 - Explain the function of the Constraints file.
-
+It's code that enables the assignment of FPGA hardware, provided by the manufacturer usually through github.
 ### 3 - Was the selection of Minterm and Maxterm correct for each circuit? What would you have chosen?
 
