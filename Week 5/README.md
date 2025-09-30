@@ -8,10 +8,13 @@ the constraints file maps your inputs and outputs to real pins on the FPGA.
 
 | Item | Description | Value |
 | ---- | ----------- | ----- |
-| Summary Answers | We learned how we can apply Min and Maxterms in verilog. This made it possible to use adders in our logic and be able to connect the two logics together. | 25% |
+| Summary Answers | | 25% |
 | Question 1 | Your answers to the question | 25% |
 | Question 2 | Your answers to the question | 25% |
 | Question 3 | Your answers to the question | 25% |
+
+## Summary 
+We learned how we can apply Min and Maxterms in verilog. This made it possible to use adders in our logic and be able to connect the two logics together.
 
 ## Lab Questions
 
