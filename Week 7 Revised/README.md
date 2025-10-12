@@ -11,7 +11,7 @@ In this lab you've learned the basics of number theory as it relates to subtract
 | Question 2 | Your answers to the question | 25% |
 | Question 3 | Your answers to the question | 25% |
 
-##Summary
+## Summary
 We learned how we can use a full adder but manipulate it, using different techniques to subtract two binary numbers. 
 ## Lab Questions
 
