@@ -11,6 +11,8 @@ In this lab, you learned about the basic building block of sequential circuits: 
 | Question 2 | Your answers to the question | 25% |
 | Question 3 | Your answers to the question | 25% |
 
+## Summary
+
 ## Lab Questions
 
 ###  Why can we not just use structural Verilog to implement latches?
