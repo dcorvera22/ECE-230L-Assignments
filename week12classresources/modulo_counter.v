@@ -42,36 +42,41 @@ module modulo_counter (
     
     assign D_out = Cmp_Reset ? nQ_out : Q_out;
 
-    d_ff dff_0 (
-        .D   (reset ? 1'b0 : D0), 
+   d_ff dff_0 (
+        .D   (D0), 
         .clk (clk),
+        .reset (reset),     // <-- PASS RESET
         .Q   (Q0),
         .nQ  ()
     );
     assign led_3 = Q0;
 
     d_ff dff_1 (
-        .D   (reset ? 1'b0 : D1), 
+        .D   (D1), 
         .clk (clk),
+        .reset (reset),     // <-- PASS RESET
         .Q   (Q1),
         .nQ  ()
     );
     assign led_4 = Q1;
 
     d_ff dff_2 (
-        .D   (reset ? 1'b0 : D2), 
+        .D   (D2), 
         .clk (clk),
+        .reset (reset),     // <-- PASS RESET
         .Q   (Q2),
         .nQ  ()
     );
     assign led_5 = Q2;
 
     d_ff dff_out (
-        .D   (reset ? 1'b0 : D_out), 
+        .D   (D_out), 
         .clk (clk),
+        .reset (reset),     // <-- PASS RESET
         .Q   (Q_out),
         .nQ  (nQ_out)
     );
     assign led_6 = Q_out; 
+
 
 endmodule
