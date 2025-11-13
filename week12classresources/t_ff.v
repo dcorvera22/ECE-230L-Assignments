@@ -11,12 +11,16 @@ module t_ff (
     end
 
     // Edge-sensitive logic
-    always @(posedge clk) begin
-        if (T)
+    always @(posedge clk, posedge reset) begin 
+        if (reset) begin
+            Q <= 1'b0;      // Asynchronous Reset
+        end else if (T) begin
             Q <= ~Q;
     end
+end
 
     // Output for the inverted state (~Q)
     assign nQ = ~Q;
+
 
 endmodule
