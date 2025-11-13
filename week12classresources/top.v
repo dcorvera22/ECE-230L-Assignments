@@ -10,6 +10,7 @@ module top (
    
     ripple_counter ripple_inst (
         .clk (btnC),
+        .reset (btnU),
         .led_0 (led[0]), 
         .led_1 (led[1]), 
         .led_2 (led[2]) 
@@ -24,5 +25,6 @@ module top (
         .led_5 (led[5]), 
         .led_6 (led[6])  
     );
+
 
 endmodule
